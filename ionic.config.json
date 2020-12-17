@@ -1,0 +1,7 @@
+{
+  "name": "tutum-cliente",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
