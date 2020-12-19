@@ -1,0 +1,56 @@
+#container {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    #titulo {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    #redes {
+        background-color: #fff;
+    }
+}
+
+#datos {
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    #inp {
+        top: 2px;
+        border: solid;
+        border-width: 1px;
+        border-radius: 30px;
+        border-color: #f29e25;
+        height: 50px;
+        font-size: 20px;
+    }
+    #eye {
+        color: #f29e25;
+        font-size: 35px;
+        margin-top: 10px;
+    }
+}
+
+#btnActions {
+    #btact1 {
+        border: solid;
+        border-color: rgb(71, 70, 70);
+        border-width: 1px;
+        border-radius: 10px;
+        width: 120px;
+        height: 40px;
+        font-size: 20px;
+    }
+    #btact2 {
+        border: solid;
+        border-color: #f29e25;
+        border-width: 1px;
+        border-radius: 10px;
+        width: 120px;
+        height: 40px;
+        font-size: 20px;
+    }
+}

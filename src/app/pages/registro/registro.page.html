@@ -1,0 +1,47 @@
+<ion-content>
+    <div>
+        <div id="container">
+            <h4 id="titulo">Regístrate y disfruta el mejor servicio</h4>
+            <ion-grid>
+                <ion-row>
+                    <ion-col>
+                        <button id="redes"><img src="../../../assets/img/google.png" width="60" alt=""></button>
+                    </ion-col>
+                    <ion-col>
+                        <button id="redes"><img src="../../../assets/img/facebook.png" width="60" alt=""></button>
+                    </ion-col>
+                </ion-row>
+            </ion-grid>
+            <div id="datos">
+                <ion-grid>
+                    <ion-input id="inp" placeholder="Nombre Completo"></ion-input>
+                    <br>
+                    <ion-row>
+                        <ion-col>
+                            <ion-input id="inp" value="Colombia" disabled></ion-input>
+                        </ion-col>
+                        <ion-col>
+                            <ion-input id="inp" placeholder="Ciudad"></ion-input>
+                        </ion-col>
+                    </ion-row>
+                    <br>
+                    <ion-input id="inp" placeholder="E-mail"></ion-input>
+                    <br>
+                    <ion-input id="inp" placeholder="Teléfono"></ion-input>
+                    <br><br>
+                </ion-grid>
+            </div>
+            <div id="btnActions">
+                <ion-grid>
+                    <ion-col>
+                        <button [routerLink]="['/home']" id="btact1">Cancelar</button>
+                    </ion-col>
+                    <ion-col>
+                        <button id="btact2">Guardar </button>
+                    </ion-col>
+                </ion-grid>
+            </div>
+        </div>
+    </div>
+
+</ion-content>

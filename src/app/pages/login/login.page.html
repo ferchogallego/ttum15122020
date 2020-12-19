@@ -1,0 +1,47 @@
+<ion-content>
+    <div>
+        <div id="container">
+            <h4 id="titulo">Iniciar Sesión</h4>
+            <ion-grid>
+                <ion-row>
+                    <ion-col>
+                        <button id="redes"><img src="../../../assets/img/google.png" width="60" alt=""></button>
+                    </ion-col>
+                    <ion-col>
+                        <button id="redes"><img src="../../../assets/img/facebook.png" width="60" alt=""></button>
+                    </ion-col>
+                </ion-row>
+            </ion-grid>
+            <br>
+            <div id="datos">
+                <ion-grid>
+                    <ion-row>
+                        <ion-col size="12">
+                            <ion-input type="text" id="inp" placeholder="E-mail"></ion-input>
+                        </ion-col>
+                        <ion-col size="10">
+                            <ion-input type="password" id="inp" placeholder="Contraseña"></ion-input>
+                        </ion-col>
+                        <ion-col size="2">
+                            <button style="background-color: #fff;"><ion-icon name="eye" id="eye"></ion-icon></button>
+                        </ion-col>
+                    </ion-row>
+
+                    <br>
+                </ion-grid>
+            </div>
+            <br><br>
+            <div id="btnActions">
+                <ion-grid>
+                    <ion-col>
+                        <button [routerLink]="['/home']" id="btact1">Cancelar</button>
+                    </ion-col>
+                    <ion-col>
+                        <button [routerLink]="['/principal']" id="btact2">Ingresar </button>
+                    </ion-col>
+                </ion-grid>
+            </div>
+        </div>
+    </div>
+
+</ion-content>
