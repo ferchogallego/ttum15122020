@@ -31,3 +31,26 @@ ion-button {
     margin-left: 40px;
     margin-right: 40px;
 }
+
+ion-button {
+    margin-left: 40px;
+    margin-right: 40px;
+    ;
+}
+
+.btn {
+    border-radius: 25px;
+    color: #1D1D1B;
+    height: 40px;
+    width: 250px;
+}
+
+.btnActivo {
+    // background-color: #FDBB11;
+    background: linear-gradient(var(--btnGradient));
+    margin-bottom: 1.5rem;
+}
+
+.btnSecundario {
+    background-color: (var(--colorTextoGral));
+}

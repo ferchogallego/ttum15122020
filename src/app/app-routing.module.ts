@@ -23,6 +23,22 @@ const routes: Routes = [
     path: 'principal',
     loadChildren: () => import('./pages/principal/principal.module').then( m => m.PrincipalPageModule)
   },
+  {
+    path: 'categorias',
+    loadChildren: () => import('./pages/categorias/categorias.module').then( m => m.CategoriasPageModule)
+  },
+  {
+    path: 'proveedores/:id',
+    loadChildren: () => import('./pages/proveedores/proveedores.module').then( m => m.ProveedoresPageModule)
+  },
+  {
+    path: 'detalle-proveedor/:id',
+    loadChildren: () => import('./pages/detalle-proveedor/detalle-proveedor.module').then( m => m.DetalleProveedorPageModule)
+  },
+  {
+    path: 'contrato/:id',
+    loadChildren: () => import('./pages/contrato/contrato.module').then( m => m.ContratoPageModule)
+  },
 ];
 
 @NgModule({

@@ -1,0 +1,27 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button></ion-back-button>
+        </ion-buttons>
+        <ion-title>Solicitud de Servicio</ion-title>
+    </ion-toolbar>
+</ion-header>
+<ion-content class="ion-padding">
+    <h4>Cuéntanos tu necesidad</h4>
+    <ion-item>
+        <ion-label position="floating">Direccion Donde requieres el servicio:</ion-label>
+        <ion-input></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-label position="floating">Pequeña descripción de tu necesidad:</ion-label>
+        <ion-textarea></ion-textarea>
+    </ion-item>
+    <ion-item>
+        <ion-label>Fecha del servicio?</ion-label>
+        <ion-datetime displayFormat="MM/DD/YYYY" placeholder="Selecciona"></ion-datetime>
+    </ion-item>
+    <br>
+    <ion-item>
+        <ion-button expand="block" size="large" shape="round" color="success">Solicitar Cotización</ion-button>
+    </ion-item>
+</ion-content>
